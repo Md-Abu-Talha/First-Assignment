@@ -1,0 +1,83 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.noto-sans-jp-font {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+    background-image: url(../Assets/Hero-bg.png);
+    height: 1390px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin:50px 150px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.nav-logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #32AAFF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.sign-up-btn {
+    height: 50px;
+    width: 135px;
+}
+
+.focused-btn {
+    height: 50px;
+    width: 180px;
+}
+
+.template-btn {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.template {
+    font-size: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 400px;  
+    font-weight: bold;
+}
+
+
+body {
+    color: #32AAFF;
+}
