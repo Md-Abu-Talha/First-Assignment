@@ -166,6 +166,10 @@ main{
     font-weight: bold;
 }
 
+.focus-text {
+    font-weight: bold;
+}
+
 .get-start-btn {
     height: 50px;
     width: 230px;
@@ -205,4 +209,24 @@ main{
     width: 600px;
     border: none;
     border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+.ft-logo {
+    font-size: 150px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+
+.ft-text {
+    font-weight: bold;
+}
+
+.ft-btn {
+    background-color: aliceblue;
+    color: #2524329a;
+    padding: 25px;
 }
