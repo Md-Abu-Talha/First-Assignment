@@ -15,6 +15,7 @@
 
 body {
     color: #32AAFF;
+    background-color: aliceblue;
 }
 
 nav {
@@ -72,6 +73,12 @@ ul li a{
     margin-top: 40px;
 }
 
+.get-in-touch-btn {
+    margin-top: 10px;
+    height: 70px;
+    width: 600px;
+}
+
 .btn:hover {
     background-color: aqua;
     cursor: pointer;
@@ -114,7 +121,7 @@ main{
     background-color: #32aaff38;
     border-radius: 25px;
     margin-top: 60px;
-    height: 350px;
+    height: 380px;
     padding: 50px;
 }
 
@@ -138,3 +145,64 @@ main{
     font-weight: bold;
 }
 
+.users-opinion {
+    justify-content: space-around;
+}
+
+.reviewer-info {
+    display: flex;
+}
+
+.focus-section {
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.focus-section-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.get-start-btn {
+    height: 50px;
+    width: 230px;
+}
+
+.wc-big {
+    margin-top: 30px;
+}
+
+.wc-big-pic {
+    border-radius: 40px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.input-area {
+    
+}
+
+.input-section-title {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.text-box {
+    height: 90px;
+    width: 600px;
+    border: none;
+    border-radius: 10px;
+}
+.sms-box {
+    height: 170px;
+    width: 600px;
+    border: none;
+    border-radius: 10px;
+}
